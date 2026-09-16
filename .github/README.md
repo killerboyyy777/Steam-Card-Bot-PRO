@@ -1,3 +1,5 @@
+# CURRENTLY NOT WORKING DUE TO BREAKING STEAM CHANGES, MIGHT FIX IN THE FUTURE
+
 # Steam-Card-Bot-PRO
 
 ### `Read this page before asking any questions`
