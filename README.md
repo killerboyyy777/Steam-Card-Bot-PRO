@@ -49,7 +49,7 @@ I am planning to **update the project over time and keep it free**.
 * **Update Frequency:** As I don't earn money from this project, updates will be released as time permits and based on necessity.
 * **Support & Stability:** I will **not** be able to provide support for most individual cases. The code may be **unstable** as it is based on existing architecture and not entirely re-coded.
 
-**Currently working on:** Fixing repository links, updating all advertisements, and ensuring consistency after the fork.
+**Currently working on:** Keeping the fork up to date with upstream and ongoing maintenance.
 
 <hr>
 
