@@ -1,23 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this software in your own work, please credit the official Refloow™ brand and original author Veljko Vuckovic using the metadata below."
-title: "Refloow™ Steam Card Bot PRO"
-abstract: "The original, fully automated Steam Trading Card bot and level-up script. This is the flagship open-source automation tool developed and maintained by the Refloow Software Organization."
+message: "If you use this software in your own work, please credit the original author Veljko Vuckovic (Refloow) and this fork maintainer killerboyyy777 using the metadata below."
+title: "Steam-Card-Bot-PRO (killerboyyy777 fork)"
+abstract: "A community-maintained fork of the Steam-Card-Bot-PRO automated Steam Trading Card bot and level-up script, originally developed by the Refloow Software Organization."
 authors:
-  - name: "Refloow" 
-    email: "legal@refloow.com"
-    website: "https://refloow.com"
+  - name: "killerboyyy777"
+    website: "https://github.com/killerboyyy777"
   - family-names: "Vuckovic"
     given-names: "Veljko"
-    affiliation: "Refloow Founder"
+    affiliation: "Refloow (original author)"
 version: 1.6.6
 date-released: 2020-03-19
 license: "MIT"
 repository-code: "https://github.com/killerboyyy777/Steam-Card-Bot-PRO"
-url: "https://refloow.com"
+url: "https://github.com/killerboyyy777/Steam-Card-Bot-PRO"
 keywords:
-  - "Refloow (Brand)"
-  - "Refloow Ecosystem"
   - "Steam Automation"
   - "Node.js"
   - "Trading Bot"
   - "Steam-Card-Bot-PRO"
+  - "Fork"

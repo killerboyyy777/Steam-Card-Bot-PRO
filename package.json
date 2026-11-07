@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "title Refloow / Steam-Card-Bot-PRO / killerboy777 fork & node index.js pause"
+    "start": "title Steam-Card-Bot-PRO / killerboy777 fork & node index.js pause"
   },
   "repository": {
     "type": "git",
@@ -54,7 +54,7 @@
   },
   "funding": {
     "type": "individual",
-    "url": "https://refloow.com"
+    "url": "https://linktr.ee/killerboy777"
   },
   "private": true
 }
