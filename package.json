@@ -22,15 +22,21 @@
     "levelbot"
   ],
   "author": "killerboy777",
+  "contributors": [
+    {
+      "name": "Veljko Vuckovic",
+      "url": "https://github.com/Refloow"
+    }
+  ],
   "license": "MIT",
-  "years": "2025",
+  "years": "2020-2026",
   "bugs": {
     "url": "https://github.com/killerboyyy777/Steam-Card-Bot-PRO/issues"
   },
   "homepage": "https://github.com/killerboyyy777/Steam-Card-Bot-PRO",
   "dependencies": {
     "colors": "1.4.0",
-    "console-master": "^1.0.3",
+    "console-master": "1.0.3",
     "forever": "3.0.2",
     "jsonfile": "6.0.1",
     "lodash": "4.17.21",
@@ -38,13 +44,17 @@
     "node-fetch": "^2.6.0",
     "path": "0.12.7",
     "request": "2.88.2",
-    "scb-diagnostics": "^1.0.1",
-    "steam-totp": "^2.1.2",
-    "steam-tradeoffer-manager": "^2.12.1",
+    "scb-diagnostics": "1.0.1",
+    "steam-totp": "2.1.2",
+    "steam-tradeoffer-manager": "2.13.0",
     "steam-user": "5.2.3",
-    "steamcommunity": "^3.48.8",
+    "steamcommunity": "3.50.3",
     "steamid": "2.0.0",
     "winston": "3.3.3"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://refloow.com"
   },
   "private": true
 }

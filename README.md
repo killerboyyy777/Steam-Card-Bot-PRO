@@ -35,6 +35,7 @@
 
 
 
+
 <h3 align= "center"> This is an open-source fork of the Steam-Card-Bot-PRO project, dedicated to providing FREE updates and support. My goal is to keep this essential tool accessible to the community.</h3>
 
 ---
@@ -93,7 +94,7 @@ This project is made open source and **free for all**. We cannot prohibit the re
 
 **[discord.gg/MFQnYm2f2d](https://discord.gg/MFQnYm2f2d)**
 
-<hr>
+# Telegram Channel
 
 # Support the project
 **If you like the project and the fact that it is free, you can support me by donating or checking out my other stuff on my Linktree.**
@@ -105,9 +106,15 @@ Linktree:
 
 Crypto(XMR) :
 `47PiRtJbaJRd6sSvipHG98DoY3krAxbCu4KvHSCnyNBSVM3L6Sbpk8x8Tcqkrc4vdsbhmBj12Yjcw9tJcJMA4nTNU2qavrE`
-    
+     
 Steam :
 [https://steamcommunity.com/tradeoffer/new/?partner=1211192445&token=T9Hiu3Oz](https://steamcommunity.com/tradeoffer/new/?partner=1211192445&token=T9Hiu3Oz)
+
+<hr>
+
+# Telegram Channel
+
+https://t.me/+LC9l6d-Jhco2NTU0
 
 <hr>
 
