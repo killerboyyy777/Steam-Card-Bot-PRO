@@ -37,14 +37,8 @@ As a community-maintained, open-source project, security relies on transparency 
 
 ## Reporting a Vulnerability
 
-To report a potential security issue or vulnerability, please take one of the following actions:
+To report an issue or vulnerability, open an issue here on GitHub or ask for help on the Discord server, explaining the problem.
 
-1.  **Open an Issue** here on GitHub, providing a detailed explanation of the problem.
-2.  **Create a Ticket** on our Discord Support Server, explaining the vulnerability.
+GitHub Issue: https://github.com/killerboyyy777/Steam-Card-Bot-PRO/issues
 
 **Discord Server Link:** [https://discord.gg/MFQnYm2f2d](https://discord.gg/MFQnYm2f2d)
-<br>
-
-## Reporting a Vulnerability
-
-To report an issue or vulnerability make sure to open an issue here on github or ask for help on the discord server explaining the problem.
