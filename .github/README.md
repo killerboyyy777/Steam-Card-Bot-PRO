@@ -33,7 +33,7 @@
   </a>
 </p>
 
-<img width="614" height="409" alt="steam-card-bot-pro-min" src="https://i.imgur.com/PUCBfA6.png" />
+
 
 <h3 align= "center"> This is an open-source fork of the Steam-Card-Bot-PRO project, dedicated to providing FREE updates and support. My goal is to keep this essential tool accessible to the community.</h3>
 
