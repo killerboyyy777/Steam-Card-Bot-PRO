@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=plastic" alt="GitHub license">
   </a>
   <a href="https://discord.gg/MFQnYm2f2d" target="_blank">
-    <img src="https://img.shields.io/discord/1234567890?label=Discord%20Support&color=5865F2" alt="Support Discord">
+    <img src="https://img.shields.io/badge/Discord-Support-5865F2?logo=discord" alt="Support Discord">
   </a>
   <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
     <img src="https://img.shields.io/badge/Uses-Node.js-green" alt="Language">
@@ -42,7 +42,7 @@
 
 This is a **fork** of the original [Steam-Card-Bot-PRO](https://github.com/Refloow/Steam-Card-Bot-PRO). I have decided to develop and maintain it independently because:
 1.  The original project is no longer actively maintained.
-2.  The original developer is now only selling a version with more features privately (Overpriced) on their Discord.
+2.  The original developer now focuses on a separately-maintained private version.
 
 I am planning to **update the project over time and keep it free**.
 
@@ -53,19 +53,15 @@ I am planning to **update the project over time and keep it free**.
 
 <hr>
 
-# ⚖️ Licensing & Reselling Terms (MIT)
+# ⚖️ Licensing (MIT)
 
-**To everyone who plans to sell this project by stating that they coded it or that they sell an edited version.**
-
-**Project is licensed under the MIT license.**
+This project is a **fork** of [Steam-Card-Bot-PRO](https://github.com/Refloow/Steam-Card-Bot-PRO) by **Veljko Vuckovic (Refloow.com)**, and is distributed under the **MIT license**. The upstream copyright notice is retained verbatim in the [LICENSE](LICENSE) file, as MIT requires for all copies and substantial portions of the software.
 
 ### "`The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.`"
 
-This means that if you plan to sell our project, you **must keep the copyright notice and a copy of the original license.**
+Because the license is MIT, you are free to use, modify, and redistribute the software — including selling it — **provided you keep a copy of the upstream copyright and permission notice**. If you redistribute or sell a modified version, retain that notice and clearly credit the original author (Refloow) alongside any of your own changes.
 
-**In case of breaking licensing terms, we may take legal charges against you.**
-
-This project is made open source and **free for all**. We cannot prohibit the reselling of our project, but if you do, please follow the licensing terms.
+In short: the code is free to use and share under MIT; just keep the copyright notice intact and give credit to the original author.
 
 <br>
 <hr>
