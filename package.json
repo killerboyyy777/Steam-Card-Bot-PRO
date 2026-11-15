@@ -4,7 +4,7 @@
   "description": "An free open source, fully automated Level Up Bot with all features and support and much more",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test",
     "start": "title Steam-Card-Bot-PRO / killerboy777 fork & node index.js pause"
   },
   "repository": {
