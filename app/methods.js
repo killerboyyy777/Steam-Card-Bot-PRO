@@ -103,6 +103,8 @@ try {
 
 // Importing required files
 const package = require('./../package.json');
+const request = require('request');
+const { parseRemoteVersion } = require('./SETTINGS/version-check.js');
 const config = require('./SETTINGS/config.js');
 const logcolors = require('console-master')
 
@@ -116,12 +118,16 @@ t = module.exports = {
             method: 'GET',
         };
         function look(error, JSONresponse, body) {
-            var page = JSON.parse(body)
-		
+            const remoteVersion = parseRemoteVersion(error, JSONresponse, body);
+            if (!remoteVersion) {
+                console.log('[GitHub] | VERSION |: Could not check for updates; continuing without an update check.');
+                return;
+            }
+
             const v = package.version;
-            if(page.version != v)
-                console.log(`\n [GitHub] | VERSION |:  ${'New update available for '+package.name+ ' v'+page.version.green+'! You\'re currently only running version '+v.yellow+''}\n${` [GitHub] | VERSION |: Go to https://github.com/Refloow/Steam-Card-Bot-PRO to update now!`}\n\n`)
-            else 
+            if (remoteVersion !== v)
+                console.log(`\n [GitHub] | VERSION |:  ${'New update available for '+package.name+ ' v'+remoteVersion.green+'! You\'re currently only running version '+v.yellow+''}\n${` [GitHub] | VERSION |: Go to https://github.com/Refloow/Steam-Card-Bot-PRO to update now!`}\n\n`)
+            else
                 console.log(`\n [GitHub] | VERSION |: You're running the latest version of Steam-Card-Bot-PRO (v${v.green})\n\n`)
         }
         request(options, look)
@@ -133,10 +139,14 @@ t = module.exports = {
             method: 'GET',
         };
         function look(error, JSONresponse, body) {
-            var page = JSON.parse(body)
+            const remoteVersion = parseRemoteVersion(error, JSONresponse, body);
+            if (!remoteVersion) {
+                return;
+            }
+
             const v = package.version;
-            if(page.version != v)
-                console.log(`\n [GitHub] | VERSION |:  ${'New update available for '+package.name+ ' v'+page.version.green+'! You\'re currently only running version '+v.yellow+''}\n${` [GitHub] | VERSION |: Go to https://github.com/Refloow/Steam-Card-Bot-PRO to update now!`}\n\n`)
+            if (remoteVersion !== v)
+                console.log(`\n [GitHub] | VERSION |:  ${'New update available for '+package.name+ ' v'+remoteVersion.green+'! You\'re currently only running version '+v.yellow+''}\n${` [GitHub] | VERSION |: Go to https://github.com/Refloow/Steam-Card-Bot-PRO to update now!`}\n\n`)
         }
         request(options, look)
     },
